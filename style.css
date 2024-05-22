@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(../image/bakachin_face.png);
+    background-image: url(./image/bakachin_face.png);
     background-color: rgba(255, 255, 255, 0.9);
     background-blend-mode: lighten;
     color: #333;
