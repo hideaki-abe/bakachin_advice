@@ -9,8 +9,8 @@
 
 ## ③DEMO
 
-https//～
-- ChatGPT APIキーの入力が必要です
+https://hideaki-abe.github.io/bakachin_advice/
+- 【重要】ChatGPT APIキーの入力が必要です
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
