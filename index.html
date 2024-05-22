@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バカチン★相談室</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/sanitize.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fontsの読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>バカチン<span>★</span>相談室</h1>
+    <img src="./image/バカチンガー_small.png" alt="">
+    <div class="container">
+        <!-- 音声認識開始＆停止停止ボタン -->
+        <div class="controls">
+            <button id="startRecognition">相談開始</button>
+            <button id="stopRecognition">相談完了</button>
+        </div>
+        <div class="memo">
+            <!-- アドバイス表示エリア -->
+            <textarea id="summary" placeholder="ここにバカチンガーのアドバイスがでるよ！"></textarea>
+        </div>
+        <div class="controls">
+            <!-- 保存ボタン -->
+            <button id="saveMemo">保存</button>
+        </div>
+        <div class="memo-list">
+            <!-- 保存アドバイスのリスト -->
+            <select id="memoList">
+                <option value="">保存したアドバイスを選択</option>
+            </select>
+            <!-- 保存アドバイス表示・削除ボタン -->
+            <button id="loadMemo">表示</button>
+            <button id="deleteMemo">削除</button>
+        </div>
+    </div>
+    <p id="text">相談方法：①"相談開始"ボタンで音声入力　②"相談完了"ボタンでアドバイス表示</p>
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+
+</html>
